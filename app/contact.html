@@ -1,0 +1,51 @@
+---
+title: 聯絡我們
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="mt-12 mt-md-16 mb-11 mb-md-20 mb-lg-25">
+  <h1 class="mb-6 text-center fw-bold text-primary">聯絡我們</h1>
+  <div class="container">
+    <div class="row gx-lg-10">
+      <div class="mb-10 mb-lg-0 col-12 col-lg-7 ps-lg-0">
+        <div class="contact_map overflow-hidden rounded-3 mb-6">
+          <a href="javascript:void(0)" class="h-100"><img src="./assets/images/snazzy-image.png" alt="map" class="w-100 h-100"></a>
+        </div>
+        <div class="">
+          <h2 class="mb-2">DOYOGA 教室位置</h2>
+          <p class="mb-2">高雄市苓雅區北信街 23 號 2 樓</p>
+          <p class="m-0">如何前往：</p>
+          <ol class="list-unstyled">
+            <li class="mb-6">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+            <li class="mb-6">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+            <li class="">3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 text-primary h-100 pe-lg-0">
+        <div class=" p-8 pb-6 pb-md-8 bg-yellow rounded-3 h-100">
+          <h3 class="mb-4 mb-md-6 fw-bold">意見回饋&問題詢問</h3>
+          <div class="mb-4">
+            <label for="inputname" class="form-label mb-2">姓名</label>
+            <input type="text" class="form-control text-primary _input-holder" id="inputname" placeholder="請輸入您的姓名">
+          </div>
+          <div class="mb-4">
+            <label for="inputmail" class="form-label mb-2">電子信箱</label>
+            <input type="mail" class="form-control text-primary _input-holder" id="inputmail" placeholder="email@example.com">
+          </div>
+          <div class="mb-4">
+            <label for="inputtel" class="form-label mb-2">手機號碼</label>
+            <input type="tel" class="form-control text-primary _input-holder" id="inputtel" placeholder="0912-345-678">
+          </div>
+          <div class="mb-4">
+            <label for="inputnote" class="form-label mb-2">意見回饋</label>
+            <textarea class="form-control _input-holder" id="inputnote" rows="6"></textarea>
+          </div>
+          <div class="w-100 d-flex justify-content-end"><button type="button" class="btn btn-primary text-light">送出</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

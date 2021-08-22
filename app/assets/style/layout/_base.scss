@@ -1,0 +1,20 @@
+@mixin pad{
+  @media (max-width:768px) {
+    @content;
+  }
+}
+
+@mixin phone{
+  @media (max-width:576px) {
+    @content;
+  }
+}
+
+body {
+
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}

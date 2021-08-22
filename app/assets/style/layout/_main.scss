@@ -1,0 +1,26 @@
+// layout 導覽列
+._logo {
+  height: 30px;
+}
+
+._iconlink {
+  height: 24px;
+}
+
+.input-group ._input-minw {
+  min-width: 278px;
+  @include phone {
+    min-width: inherit;
+  }
+}
+
+._input-holder::placeholder {
+  color: #907A7B;
+}
+
+// 聯絡我們
+.contact_map {
+  height: 360px;
+  @include pad { height: 323px; }
+  @include phone { height: 195px; }
+}
